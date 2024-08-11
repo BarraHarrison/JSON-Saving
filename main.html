@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JSON Saving</title>
+</head>
+    <body>
+        <h1>Store text in Local Storage</h1>
+        <button id="saveJSON">Save JSON</button>
+
+        <form action="" id="myForm">
+            <label for="textInput">Enter text:</label>
+            <input type="text" id="textInput" name="textInput" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="display"></div>
+        <div id="textList"></div>
+
+        <!-- Link to fileSaver.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+        <script src="JSONscript.js"></script>
+    </body>
+</html>
